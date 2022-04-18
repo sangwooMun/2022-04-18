@@ -46,5 +46,4 @@ public class Exam4 {
 		System.out.printf("이름 : %4s \n생일 : %4d\n 전화번호 : %2s \n", name, tan, phone );
 	}
 	
-	
 }

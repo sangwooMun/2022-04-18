@@ -19,7 +19,7 @@ public class Exam2 {
 				sum2 += num2;
 			}
 		}
-		System.out.println(sum1);
-		System.out.println(sum2);
+		System.out.println("2의 배수 : " + sum1);
+		System.out.println("3의 배수 : " + sum2);
 	}
 }

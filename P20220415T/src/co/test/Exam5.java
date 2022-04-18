@@ -47,6 +47,15 @@ public class Exam5 {
 					}
 				}
 			} else if (menu == 3) {
+				boolean check = false;
+				System.out.println("삭제할 이름 : ");
+				String name = scanner.nextLine();
+				for(int i =0; i<exam.length; i++) {
+					exam[i] = null;
+					check = true;
+					break;
+				}
+			} else if (menu == 4) {
 				System.out.println("조회할 이름을 입력하세요 :");
 				String name = scanner.nextLine();
 				for (int i = 0; i < exam.length; i++) {
@@ -54,7 +63,6 @@ public class Exam5 {
 						exam[i].showInfo();
 					}
 				}
-			} else if (menu == 4) {
 			} else if (menu == 5) {
 			}
 
