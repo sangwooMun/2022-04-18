@@ -10,17 +10,7 @@ import java.util.Random;
 public class Exam2 {
 	public static void main(String[] args) {
 		Random random = new Random();
-
-		int num1 = 0;
-		int num2 = 0;
 		
-		for (int i = 0; i < 10; i++) {
-			num1 += (random.nextInt(10) + 1);
-			num2 += (random.nextInt(10) + 1);
-			if (num1 % 2 == 0 && num2 % 3 == 0) { 
-				System.out.println("2의 배수의 합 : " + num1);
-				System.out.println("3의 배수의 합 : " + num2);
-			}
-		}
+		int[] numbers 
 	}
 }

@@ -10,7 +10,6 @@ public class Exam2 {
 	public static void main(String[] args) {
 		int sum1 = 0;
 		int sum2 = 0;
-
 		for (int i = 0; i < 10; i++) {
 			int num1 = (int) (Math.random() * 10) + 1;
 			int num2 = (int) (Math.random() * 10) + 1;

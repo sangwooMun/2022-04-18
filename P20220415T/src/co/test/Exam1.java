@@ -13,16 +13,14 @@ public class Exam1 {
 		int num1 = scn.nextInt();
 		int num2 = scn.nextInt();
 		int num3 = scn.nextInt();
-		int max;
-		
-		if(num1 > num2 && num1 > num3) {
-			max = num1;
-		}else if (num2 > num1 && num2 > num3) {
+
+		int max = num1;
+		if(max < num2) {
 			max = num2;
-		}else {
+		}
+		if(max < num3) {
 			max = num3;
 		}
-		
 		
 		
 		System.out.println("3수 중에서 가장 큰 값은 " + max + "입니다.");
